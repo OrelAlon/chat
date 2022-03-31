@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+.chatBox {
+  border-style: solid;
+  border-color: lightgreen;
+  border-width: 5px;
+  width: 40%;
+  height: 520px;
+  margin: auto;
+}
+input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 11px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.msgContainer {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  font-size: large;
+  padding: 6px;
+  margin: 5px 5px;
+  display: flex;
+  align-items: center;
+}
+.scroll {
+  width: 100%;
+  height: 100%;
+  /* overflow-y: scroll; */
+  overflow-x: hidden;
+}
+
+#you {
+  border: 2px solid #43a047;
+  background-color: #43a047;
+  width: 60%;
+  justify-content: flex-start;
+}
+#other {
+  width: 60%;
+  float: right;
+}
+.sender {
+  margin-top: 0;
+  float: left;
+  /* font-size: larger; */
+  /* margin-right: 20px; */
+  /* border-radius: 50%; */
+  text-decoration: underline;
+}
+.senderMsg {
+  margin-top: 45px;
+  justify-content: right;
+}
